@@ -1,0 +1,231 @@
+@media screen and (min-width: 800px) {
+
+#contenedor {
+    width: 50%;
+    max-width: 1000px;
+    border-radius: 192px;
+    height: 560px;
+    
+    }
+
+#contenedor2 {
+    width: 50%;
+    border-radius: auto;
+    height: auto;
+   }
+
+.caja{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 250px;
+    border: 1px solid black;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    font-family: basic;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    float: left;
+    visibility: visible;
+    line-height: 100px;
+}
+
+#caja{
+
+    left: 300px;
+    display: none;
+}
+#caja2{
+    
+    left: 684px;
+    display: none;
+}
+#caja3{
+    
+    left: 1059px;
+    
+
+}
+#caja4{
+
+    left: 1248px;
+  
+
+}
+#caja5{
+   
+    left: 498px;
+    display: none;
+}
+#picante{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: red;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 644px;
+}
+#dulce{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: pink;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 254px;
+}
+#salado{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: skyblue;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 432px;
+}
+#acido{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 844px;
+
+}
+	#amargo{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: #2A005F;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 1048px;
+	
+	
+}
+
+
+
+/*@media screen and (max-width: 500px){
+
+   #contenedor {
+    width: 50%;
+    max-width: 1000px;
+    border-radius: 192px;
+    height: 560px;
+    
+    }
+
+#contenedor2 {
+    width: 50%;
+    border-radius: auto;
+    height: auto;
+   }
+
+.caja{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    font-family: basic;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    float: left;
+    visibility: visible;
+    line-height: 100px;
+}
+
+#caja{
+
+    left: 300px;
+    /*display: none;*/
+}
+#caja2{
+    
+    left: 684px;
+    /*display: none;*/
+}
+#caja3{
+    
+    left: 1059px;
+    
+
+}
+#caja4{
+
+    left: 1248px;
+  
+
+}
+#caja5{
+   
+    left: 498px;
+    /*display: none;*/
+}
+#picante{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 644px;
+}
+#dulce{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: pink;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 254px;
+}
+#salado{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: skyblue;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 432px;
+}
+#acido{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 844px;
+
+}
+    #amargo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #2A005F;
+    position: absolute;
+    top: 300px;
+    z-index: 2;
+    left: 1048px;
+    
+    
+}
